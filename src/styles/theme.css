@@ -1,0 +1,50 @@
+/* =====================================================================
+   THEME — change colors, fonts and textures here.
+   ===================================================================== */
+:root {
+  /* Wool palette: cream, mustard, rust, navy, sage */
+  --cream: #f6ecd8;
+  --cream-2: #efe0c1;
+  --wool: #fffaf0;
+  --mustard: #d79a2b;
+  --mustard-d: #a8730f;
+  --mustard-l: #f4d58e;
+  --rust: #a8452b;
+  --rust-d: #7f311c;
+  --navy: #273a5c;
+  --navy-d: #1a2840;
+  --sage: #6f8a5c;
+  --sage-d: #4f6a40;
+
+  /* Card tints (from the reference pages) */
+  --tint-sage: #dfe6cf;
+  --tint-sky: #dce7ef;
+  --tint-peach: #f5e0d3;
+  --tint-butter: #f6e7c4;
+  --tint-cream: #fffaf0;
+
+  /* Ink */
+  --ink: #26324a;
+  --ink-soft: #4d566a;
+
+  /* Seams, stitches & shadows */
+  --seam: #cdb68c;
+  --stitch: #b99f72;
+  --ledge: #e1cba2;
+  --shadow: 0 14px 26px -14px rgba(80, 52, 14, 0.38);
+
+  /* Type */
+  --font-display: 'Chewy', 'Comic Sans MS', 'Trebuchet MS', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shape & rhythm */
+  --radius: 24px;
+  --radius-sm: 16px;
+  --wrap: 1120px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --section-pad: clamp(64px, 10vw, 120px);
+
+  /* Knit texture: a tiny tile of "V" stitches */
+  --knit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='20'%3E%3Cg fill='none' stroke-linecap='round'%3E%3Cpath d='M3 1.5Q5.5 11 9 18.5M15 1.5Q12.5 11 9 18.5' stroke='%23e6d3ad' stroke-width='3.4'/%3E%3Cpath d='M3.8 2.6Q6 10.6 8.6 16.6M14.2 2.6Q12 10.6 9.4 16.6' stroke='%23fff6e2' stroke-width='1.1' opacity='.85'/%3E%3C/g%3E%3C/svg%3E");
+  --knit-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='20'%3E%3Cg fill='none' stroke-linecap='round'%3E%3Cpath d='M3 1.5Q5.5 11 9 18.5M15 1.5Q12.5 11 9 18.5' stroke='%23000' stroke-opacity='.10' stroke-width='3.4'/%3E%3Cpath d='M3.8 2.6Q6 10.6 8.6 16.6M14.2 2.6Q12 10.6 9.4 16.6' stroke='%23fff' stroke-opacity='.18' stroke-width='1.1'/%3E%3C/g%3E%3C/svg%3E");
+}
